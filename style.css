@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&display=swap');/*Playwrite AU NSW*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');/*rubik*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');/*roboto*/
+
+
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url("OIP.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+div#titulo{
+    background-image: linear-gradient(to left,rgba(0, 0, 0, 0.815),rgba(0, 0, 0, 0.71),black);
+    width: 100vw;
+    height: 60vh;
+}
+div#titulo h1{
+    color:white;
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 30vh;
+    font-family: "rubik";
+}
+div#titulo h2,div#c h2{
+    color: white;
+    position: relative;
+    top:20%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    font-family: "Playwrite AU NSW";
+    
+}
+
+li.linguagens{
+    color: white;
+    display: inline;
+    font-family: "Playwrite AU NSW";
+    position: relative;
+    top: -40vh;
+    font-weight: bold;
+    padding: 1em;
+    border-radius: 1em;
+    transition: background-color 2s ease;
+
+}
+div#titulo a{
+    text-decoration: none;
+    color:white;
+}
+li#v.linguagens:hover{
+    background-color: rgb(39, 0, 0);
+    transition: background-color 2s ease;
+    border-radius: 1em;
+}
+div#algoritmo{
+    margin-top:10vh;
+    padding-left:2vw;
+}
+div#algoritmo h2{
+    font-family: "roboto";
+    font-size: 4vh;
+    font-weight: bold;
+    text-align: center;
+    padding: 3vh;
+    position:relative;
+    top:3vh;
+    color:white;
+}
+div#algoritmo h3{
+    font-size: 4vh;
+    font-family: "roboto";
+}
+div#defini,div#exemplos, div#explica{
+    position: relative;
+    top: 20vh;
+    max-width: 25vw;
+    background-color: rgba(0, 0, 0, 0.636);
+    color: white;
+    padding: 2vw;
+    border-top-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    height: 35vh;
+}
+div#defini h4,div#exemplos h4, div#explica h4{
+    padding-top:2vh ;
+    font-size: 3vh;
+    line-height: 1.5em;
+}
+div#exemplos{
+    position: relative;
+    top: -23vh;
+    left: 30vw;
+}
+div#explica{
+    position: relative;
+    top: -66vh;
+    left: 60vw;
+    
+}
+div#video{
+    background-image:linear-gradient(to left,rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0));
+    box-shadow: 2em 2em 20em rgb(3, 3, 3);
+    max-height: 90vh;
+}
+div#video iframe{
+    max-width: 50vw;
+    max-height: 30vw;
+    position: relative;
+    left:44vw;
+    top:-20vh;
+    box-shadow: 2em 2em 10em rgb(94, 4, 4);
+}
+div#video h2{
+    color:white;
+    position: relative;
+    text-align: left;
+    font-size: 10vh;
+    margin-left: 0;
+}
+div#video h3{
+    color: white;
+    font-size: 5vh;
+    position: relative;
+    top:-40vh;
+    padding-left: 1em;
+}
+div#video h4{
+    color: white;
+    font-size: 3vh;
+    position:relative;
+    top:-35vh;
+    line-height: 3em;
+    font-family:"roboto";
+    padding-left: 1em;
+
+}
+
+
+/*linguagem de programação-C*/
+
+div#c h2{
+    font-family: "Playwrite AU NSW";
+    color: white;
+    position: relative;
+    top:70vh;
+    
+}
+div#c div#img{
+    position: relative;
+    top: 80vh;
+    background-color: rgba(0, 0, 0, 0.567);
+}
+div#img h1{
+    color: white;
+    font-size: 2em;
+    font-family: "Playwrite AU NSW";
+    position: relative;
+    bottom: 70vh;
+    margin-left: 50vw;
+    text-align: center;
+    margin-right: 10vw;
+
+}
+div#img p{
+    color:white;
+    font-family:"roboto";
+    position: relative;
+    top: -70vh;
+    margin-left: 50vw;
+    margin-right: 10vw;
+    line-height: 2em;
+}
+div#c h1.texvar{
+    color: white;
+    font-family: "playwrite au nsw";
+    position: relative;
+    top:84vh;
+    left:10vw;
+    font-size: 6vh;
+    margin-right: 12vw;
+}
+div#c h3#texto{
+    color: white;
+    font-family: "roboto";
+    position: relative;
+    top:70vh;
+    left:20vw;
+    font-size: 3vh;
+    line-height: 2em;
+}
+h3.aula_var{
+    color:black;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    padding: 10px;
+    margin-right: 70vw;
+    border-radius: 10px;
+    font-family:"playwrite au nsw";
+    font-weight: bolder;
+
+    position: relative;
+    top:62vh;
+    left: 60vw;
+    margin-bottom: 4vh;
+    transition: box-shadow 3s ease;
+}
+h3.aula_var img{
+    display: inline;
+    height: 1em;
+    width: 2em;
+}
+h3.aula_var:hover{
+    box-shadow: 0em 0em 2em white;
+    transition: box-shadow 3s ease;
+}
+.aulas{
+    color: black;
+    text-decoration:none;
+}
+#sub{
+    color:white;
+    font-size: 15vh;
+    position: relative;
+    top: 90vh;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h3.subpro{
+    color: white;
+    font-family: "roboto";
+    font-size: 4vh;
+    position: relative;
+    top: 100vh;
+    margin-left: 5vw;
+    margin-right: 50vw;
+    line-height: 2em;
+}
+
+div#funcao iframe{
+    max-width: 30vw;
+    height: 50vh;
+    position: relative;
+    top: 70vh;
+    left: 60vw;
+    box-shadow: 0 0 3em blue;
+    margin-bottom: 5em;
+
+}
+/* Estilos específicos para telas menores que 1043px de largura e 663px de altura */
+@media screen and (max-width: 1043px), screen and (max-height: 663px) {
+    body {
+        background-size: cover;
+    }
+    
+    div#titulo {
+        height: 50vh;
+    }
+    
+    div#titulo h1 {
+        font-size: 15vh;
+    }
+    
+    div#titulo h2 {
+        top: 40%;
+    }
+    
+    li.linguagens {
+        font-size: 2vh;
+        padding: 0.5em;
+    }
+    
+    div#algoritmo {
+        margin-top: 5vh;
+        padding-left: 1vw;
+    }
+    
+    div#algoritmo h2 {
+        font-size: 5vh;
+    }
+    
+    div#algoritmo h3 {
+        font-size: 3vh;
+    }
+    
+    div#defini,
+    div#exemplos,
+    div#explica {
+        top: 10vh;
+        max-width: 90vw;
+        height: auto;
+    }
+    
+    div#defini {
+        top: 5vh;
+    }
+    
+    div#exemplos {
+        top: 10vh;
+        left: 0;
+    }
+    
+    div#explica {
+        top: 15vh;
+        left: 0;
+    }
+    
+    div#video iframe {
+        max-width: 90vw;
+        max-height: 50vh;
+        left: 5vw;
+        top: 49vh;
+    }
+    div#video h2 {
+        top:20vh;
+        font-size: 8vh;
+    }
+    
+    div#video h3 {
+        top: -33vh;
+        font-size: 4vh;
+    }
+    
+    div#video h4 {
+        top: -30vh;
+        font-size: 2.5vh;
+    }
+    
+    div#c h2 {
+        top: 60vh;
+        font-size: 4vh;
+    }
+    
+    div#c div#img {
+        top: 80vh;
+        
+    }
+    div#c div#img img{
+        width: 20vw;
+    }
+    
+    div#img h1 {
+        bottom: 0;
+        margin-left: 5vw;
+    }
+    
+    div#img p {
+        top: 0;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    div#c h1.texvar {
+        top: 90vh;
+        left: 5vw;
+        font-size: 4vh;
+    }
+    
+    div#c h3#texto {
+        top: 20vh;
+        left: 5vw;
+        font-size: 2vh;
+    }
+    
+    h3.aula_var {
+        top: 95vh;
+        left: 5vw;
+        margin-right: 10vw;
+    }
+    
+    #sub {
+        font-size: 8vh;
+        top: 110vh;
+    }
+    
+    h3.subpro {
+        top: 120vh;
+        margin-left: 2vw;
+        margin-right: 20vw;
+        font-size: 3vh;
+    }
+    
+    div#funcao iframe {
+        max-width: 80vw;
+        height: 40vh;
+        top: 140vh;
+        left: 10vw;
+    }
+    iframe{
+        margin:0;
+    }
+}
+

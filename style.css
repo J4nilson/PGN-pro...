@@ -11,6 +11,7 @@ body{
     background-image: url("OIP.jpg");
     background-size: 100% 100%;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 div#titulo{
     background-image: linear-gradient(to left,rgba(0, 0, 0, 0.815),rgba(0, 0, 0, 0.71),black);
@@ -185,6 +186,7 @@ div#c h1.texvar{
     left:10vw;
     font-size: 6vh;
     margin-right: 12vw;
+    margin-right: 20vw;
 }
 div#c h3#texto{
     color: white;
@@ -257,7 +259,9 @@ div#funcao iframe{
     margin-bottom: 5em;
 
 }
-/* Estilos específicos para telas menores que 1043px de largura e 663px de altura */
+/*
+    telas menores iguais a 1043 de largura e 663 de altura 
+*/
 @media screen and (max-width: 1043px), screen and (max-height: 663px) {
     body {
         background-size: cover;

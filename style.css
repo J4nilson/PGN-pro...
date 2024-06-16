@@ -259,6 +259,151 @@ div#funcao iframe{
     margin-bottom: 5em;
 
 }
+
+div#python h1{
+    color: white;
+    font-family:"playwrite au nsw";
+    position: relative;
+    top: 120vh;
+    text-align: center;
+    font-size: 10vh;
+
+}
+div#python img{
+    height:60vh;
+    width: 30vw;
+    position: relative;
+    top: 150vh;
+}
+h3#cria_py, h3#curio,h4 a{
+    color: white;
+    font-family: "roboto";
+    line-height: 2em;
+    margin: 10vw;
+
+    position:relative;
+    top:50vh;
+    left: 7vw;
+}
+h3#curio{
+    margin-right: 30vw;
+    position: relative;
+    left: 20vw;
+}
+div#python h4 a{
+    color: black;
+    font-family:"playwrite au nsw";
+    font-size: 3vh;
+    position: relative;
+    left: 40vw;
+    margin-right: 30vw;
+    background-color: white;
+    padding: 0 1em;
+    border-radius: 2vh;
+}
+div#python h2#aula_py{
+    color: white;
+    font-family: "playwrite au nsw";
+    font-size: 5vh;
+    position: relative;
+    top: 80vh;
+    text-align: center;
+    text-decoration: overline;
+
+}
+div#python .temas_py{
+    color: white;
+    font-family: "roboto";
+    position: relative;
+    top:130vh;
+    text-align: center;
+    font-size: 7vh;
+    margin-left: -4vw;
+}
+div#python .explica_py{
+    color: white;
+    font-size: 3vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 140vh;
+    text-align: center;
+    line-height: 2em;
+    margin:auto;
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+ul.lista{
+    margin-top: 10vh;
+}
+div#python ul.lista li{
+    margin: 0;
+    padding: 5vh 0 0 0;
+    text-align: left;
+}
+
+div#python #tema_py_ent{
+    position: relative;
+    top: 170vh;
+}
+div#python #ent_sai{
+    position: relative;
+    top:180vh;
+}
+
+div#python h3#estcon{
+    position: relative;
+    top: 230vh;
+}
+div#python h3#estd_cond{
+    position: relative;
+    top:220vh;
+}
+div#python h3#est_rep{
+    position: relative;
+    top: 267vh;
+}
+
+div#python h3#rep{
+    position: relative;
+    top: 280vh;
+}
+mark{
+    background-color:white;
+    padding: 0 1em 0 1em ;
+}
+div#python h3#tp{
+    position: relative;
+    top:320vh;
+}
+div#python h3#exp_dd{
+    position: relative;
+    top:335vh;
+}
+div#python h3#func{
+    position: relative;
+    top: 380vh;
+}
+div#python h3#exp_func{
+    position: relative;
+    top:400vh;
+}
+div#python h3#video_py{
+    color: white;
+    background-image: linear-gradient(to left,rgb(16, 16, 16),rgb(15, 14, 14),black);
+    position: relative;
+    margin-top: 5vh;
+    font-family: "playwrite au nsw";
+    padding: 1.5vh 0 1.5vh 0;
+    box-shadow: 0em 0em 2em rgb(199, 187, 187);
+    border-radius: 2em;
+}
+div#python h3#video_py a{
+    color: white;
+
+}
+
+
+
 /*
     telas menores iguais a 1043 de largura e 663 de altura 
 */
@@ -402,6 +547,42 @@ div#funcao iframe{
     }
     iframe{
         margin:0;
+    }
+    div#python h1{
+        position: relative;
+        top: 150vh;
+    }
+    h3#cria_py{
+        position: relative;
+        top: 130vh;
+    }
+    h3#curio{
+        position: relative;
+        top:130vh;
+    }
+    div#imagem img{
+        height: 30vh;
+        width: 30vw;
+        position: relative;
+        top: 250vh;
+        left: 1vw;
+    }
+    div#python h4{
+        position: relative;
+        top:90vh;
+        left:-42vw;
+        margin-right: -20vh;
+        text-align: center;
+        min-width: 90vw;
+    }
+    div#python div#explica_python{
+        position: relative;
+        top:110vh ;
+
+    }
+    div#python h3.temas_py{
+        font-size: 5vh;
+        text-shadow: 0 0.1em 0 rgb(1, 12, 29);
     }
 }
 

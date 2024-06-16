@@ -396,6 +396,11 @@ div#python h3#video_py{
     padding: 1.5vh 0 1.5vh 0;
     box-shadow: 0em 0em 2em rgb(199, 187, 187);
     border-radius: 2em;
+    transition: box-shadow 3s ease;
+}
+div#python h3#video_py:hover{
+    box-shadow: 0 0 3em rgb(119, 0, 255);
+    transition: box-shadow 3s ease;
 }
 div#python h3#video_py a{
     color: white;
